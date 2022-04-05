@@ -17,12 +17,6 @@
     margin: 50px 50px;
 }
 
-@media screen and (max-width:480px) {
-    .reviews-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
 .btn {
     background-image: linear-gradient(#0B0B09, #1F1F1F);
     color: white;
@@ -33,4 +27,15 @@
 
 .btn:hover {
     background-image: linear-gradient(#3D3D3D, #0B0B09);
+}
+
+@media screen and (max-width:480px) {
+    .reviews-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .top-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
