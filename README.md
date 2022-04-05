@@ -2,7 +2,7 @@
 
 Live site Link [Desired Gadgetry](https://desired-gadgetry-by-hossain.netlify.app).
 
-* We added product img, name and 3 reviews in home.
+* Added product details and 3 reviews in home.
 * Showed all reviews in reviews page.
 * Loaded review data with custom hook.
 * Showed some charts in Dashboard.
