@@ -1,9 +1,9 @@
 .review {
     width: 300px;
-    height: 310px;
-    border: 1px solid #95A0A7;
+    border: 1px solid #3D3D3D;
     border-radius: 8px;
     position: relative;
+    padding: 5px;
 }
 
 .review img {

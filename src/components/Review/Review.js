@@ -15,12 +15,12 @@ const Review = (props) => {
                         rating={ratings}
                         numberOfStars={5}
                         starDimension="20px"
-                        starRatedColor="blue"
+                        starRatedColor="#1F1F1F"
                         starSpacing="15px"
                     />
                 </div>
             </div>
-            <div>
+            <div className='mt-6'>
                 <p>{massage}</p>
             </div>
         </div>

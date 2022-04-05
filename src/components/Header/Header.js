@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { MenuIcon, XIcon } from '@heroicons/react/solid'
 import NavLink from '../NavLink/NavLink';
+import './Header.css'
+
 const Header = () => {
     const [open, setOpen] = useState(false)
 
@@ -11,8 +13,8 @@ const Header = () => {
         { id: 4, name: 'Blogs', link: '/blog' }
     ]
     return (
-        <div>
-            <nav className='flex justify-between'>
+        <div className='header'>
+            <nav className='pt-6 flex justify-between'>
                 <div className='ml-6'>
                     <h1>Desired Gadgetry</h1>
                 </div>
