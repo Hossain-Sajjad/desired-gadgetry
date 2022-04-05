@@ -1,3 +1,15 @@
+.top-container {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.heading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .reviews-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

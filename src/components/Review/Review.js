@@ -1,5 +1,7 @@
 import React from 'react';
+import StarRatings from 'react-star-ratings/build/star-ratings';
 import './Review.css'
+
 
 const Review = (props) => {
     const { name, img, ratings, massage } = props.review;
@@ -9,7 +11,13 @@ const Review = (props) => {
                 <img className='w-12' src={img} alt="" />
                 <div>
                     <p>{name}</p>
-                    <small>{ratings}</small>
+                    <StarRatings
+                        rating={ratings}
+                        numberOfStars={5}
+                        starDimension="20px"
+                        starRatedColor="blue"
+                        starSpacing="15px"
+                    />
                 </div>
             </div>
             <div>
@@ -18,5 +26,6 @@ const Review = (props) => {
         </div>
     );
 };
+
 
 export default Review;
