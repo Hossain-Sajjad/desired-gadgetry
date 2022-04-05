@@ -10,7 +10,7 @@ const Header = () => {
         { id: 1, name: 'Home', link: '/home' },
         { id: 2, name: 'Reviews', link: '/reviews' },
         { id: 3, name: 'Dashboard', link: '/dashboard' },
-        { id: 4, name: 'Blogs', link: '/blog' }
+        { id: 4, name: 'Blogs', link: '/blogs' }
     ]
     return (
         <div className='header'>

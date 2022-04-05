@@ -1,3 +1,12 @@
+# Desired Gadgetry By Hossain
+
+Live site Link [Desired Gadgetry](https://desired-gadgetry-by-hossain.netlify.app).
+
+* We added product img, name and 3 reviews in home.
+* Showed all reviews in reviews page.
+* Loaded review data with custom hook.
+* Showed some charts in Dashboard.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
